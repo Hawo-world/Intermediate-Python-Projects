@@ -1,1 +1,15 @@
+hearts = 5 
+print("Welcome to this Adventure, where every choice you make shapes the path ahead, revealing hidden truths about yourself. Some decisions will challenge your reality, others will test your courage, and some may expose secrets you've kept buried.")
+print("You start with 5 hearts, but beware—your choices may cost you. Depending on the path you take, you may lose hearts... or earn them back.")
+print("The story begins now. Where it leads... is up to you.")
+print("Choose wisely.")
+
+print("You are on a path that splits into 3...the 1st path leads down to a raging river...the 2nd path leads into a quiet jungle...and the 3rd path leads far into an open field...")
+q1 = input("Which path do you choose (river/jungle/field)? : ")
+	if q1 == 'river':
+		print()
+	elif q1 == 'jungle':
+		print()
+	elif q1 == 'field':
+
 
