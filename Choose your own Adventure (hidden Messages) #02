@@ -5,12 +5,17 @@ print("The story begins now. Where it leads... is up to you.")
 print("Choose wisely.")
 
 print("You are on a path that splits into 3...the 1st path leads down to a raging river...the 2nd path leads into a quiet jungle...and the 3rd path leads far into an open field...")
-q1 = input("Which path do you choose (river/jungle/field)? : ")
+q1 = input("Which path do you choose (river/jungle/field)? : ").lower()
 	if q1 == 'river':
 		print("You find yourself at the edge of a raging river.")
-		print("The water crashes violently against the rocks, its power undeniable. The current pulls fiercely, as if urging you to surrender to it. The roar of the river fills your ears, drowning out all other sounds.")
+		print("The water crashes violently against the rocks, its power undeniable. The current pulls fiercely, as if urging you to surrender to it.")
 		print("It’s tempting to let the river take you, to give in to the force and let it carry you where it will. But what would you leave behind?")
 		print("Is this a test of your strength, or your fear of losing control?")
+		q2 = input("This journey must continue...so what do you choose? test your strength and cross the river ..or give up control and let it carry you (test/carry) : ").lower()
+			if q2 == 'test':
+				print()
+			elif q2 == 'carry':
+				print()
 
 	elif q1 == 'jungle':
 		print("You enter the quiet jungle.")
@@ -21,5 +26,6 @@ q1 = input("Which path do you choose (river/jungle/field)? : ")
 		print("You step into the vast, open field.")
 		print("The endless horizon stretches before you, the wind brushing against your skin. There's freedom here, yet something feels missing—almost as if you’ve left something behind.")
 		print("Are you truly free, or are you simply avoiding what you cannot face?")
+		q2 = input("
 
 
