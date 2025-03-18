@@ -7,9 +7,19 @@ print("Choose wisely.")
 print("You are on a path that splits into 3...the 1st path leads down to a raging river...the 2nd path leads into a quiet jungle...and the 3rd path leads far into an open field...")
 q1 = input("Which path do you choose (river/jungle/field)? : ")
 	if q1 == 'river':
-		print()
+		print("You find yourself at the edge of a raging river.")
+		print("The water crashes violently against the rocks, its power undeniable. The current pulls fiercely, as if urging you to surrender to it. The roar of the river fills your ears, drowning out all other sounds.")
+		print("It’s tempting to let the river take you, to give in to the force and let it carry you where it will. But what would you leave behind?")
+		print("Is this a test of your strength, or your fear of losing control?")
+
 	elif q1 == 'jungle':
-		print()
+		print("You enter the quiet jungle.")
+		print("The air is thick with silence, broken only by the distant rustle of leaves. Shadows dance between the trees, and the stillness feels almost suffocating, like the jungle is waiting—watching.")
+		print("In the quiet, you can’t help but wonder: Are you seeking peace, or hiding from something louder within yourself?")
+
 	elif q1 == 'field':
+		print("You step into the vast, open field.")
+		print("The endless horizon stretches before you, the wind brushing against your skin. There's freedom here, yet something feels missing—almost as if you’ve left something behind.")
+		print("Are you truly free, or are you simply avoiding what you cannot face?")
 
 
