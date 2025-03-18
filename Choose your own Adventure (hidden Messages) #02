@@ -21,6 +21,9 @@ q1 = input("Which path do you choose (river/jungle/field)? : ").lower()
 		print("You enter the quiet jungle.")
 		print("The air is thick with silence, broken only by the distant rustle of leaves. Shadows dance between the trees, and the stillness feels almost suffocating, like the jungle is waiting—watching.")
 		print("In the quiet, you can’t help but wonder: Are you seeking peace, or hiding from something louder within yourself?")
+		print("You've come across a path that leads to a set of Ancient Ruins...Though curiosity has taken over, you cant help but shake the feeling of being watched...")
+		print("as you stand still to observe your surroundings...you hear the leaves rustle..")
+		q2 = input("What do you choose?...Follow the path to the ruins or Investigate the leaves..(path/leaves): ").lower()
 
 	elif q1 == 'field':
 		print("You step into the vast, open field.")
