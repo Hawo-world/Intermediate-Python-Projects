@@ -26,9 +26,25 @@ q1 = input("Which path do you choose (river/jungle/field)? : ").lower()
 		q2 = input("What do you choose?...Follow the path to the ruins or Investigate the leaves..(path/leaves): ").lower()
 			if q2 == 'path':
 				print("There are strange markings on the walls, some hinting at hidden treasures, and others seeming to warn of danger.")
-				q3 = input(There are strange markings on the walls, some hinting at hidden treasures, and others seeming to warn of danger. The air feels heavy with history and secrets.")
+				print("There are strange markings on the walls, some hinting at hidden treasures, and others seeming to warn of danger. The air feels heavy with history and secrets.")
+				q3 = input("Will you choose to investigate or move on (inv/move)? : ").lower()
+					if q3 == 'inv':
+						print("Curiosity drives you to uncover the secrets of the past, even if it means confronting something uncomfortable or dangerous.")
+						print("Investigating the markings might reflect a willingness to confront past trauma or unresolved issues, a desire to uncover deeper truths about oneself.")
+					elif q3 == 'move':
+						print("You decide to leave the ruins undisturbed, not wanting to dive into the unknown and risking the consequences.")
+						print("Moving on could symbolize a tendency to avoid introspection, pushing difficult emotions or situations aside to maintain peace of mind.")
+			
 			elif q2 == 'leaves':
-				print()
+				print("You head over to the rustling leaves and suddenly a wild animal appears... ")
+				print("It’s watching you, motionless. You can’t tell if it’s hostile or merely curious.. ")
+				q3 = input("With two options...what will you choose? Stay still and observe...or move away slowly (stay/move)? : ").lower()
+					if q3 == 'stay':
+						print("You take a moment to study the animal, letting it reveal its intentions. You wait to see if it’s safe or if it will attack.")
+						print("Staying still and observing could represent the willingness to face and understand fears without running from them. It's a sign of self-reflection.")
+					if q3 == 'move':
+						print("You choose to avoid the situation, backing away quietly to protect yourself.")
+						print("Moving away slowly could represent avoidance — not facing challenges head-on or retreating from potential threats.")
 
 	elif q1 == 'field':
 		print("You step into the vast, open field.")
