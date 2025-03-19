@@ -50,6 +50,17 @@ q1 = input("Which path do you choose (river/jungle/field)? : ").lower()
 		print("You step into the vast, open field.")
 		print("The endless horizon stretches before you, the wind brushing against your skin. There's freedom here, yet something feels missing—almost as if you’ve left something behind.")
 		print("Are you truly free, or are you simply avoiding what you cannot face?")
-		q2 = input("
+		print("A chilling wind picks up as night falls, carrying with it unsettling sounds from far into the distance. It feels like someone — or something — is waiting...")
+		q2 = input("Do you choose to follow the sounds or ignore it and rest (follow/ignore)? : ").lower()
+			if q2 == 'follow':
+				print("You follow the eerie noises, driven by curiosity or a need to understand what’s causing the disturbance.")
+				print("Following the sound could symbolize a desire to confront and understand one's fears, or to probe into the unknown parts of the self.")
+
+			elif q2 == 'ignore':
+				print("You choose to ignore the sounds, finding a safe place to sleep and shut yourself off from whatever may be lurking.")
+				print("Ignoring it could indicate a tendency to avoid discomfort or the unknown, preferring to shut off from troubling thoughts or feelings.")
+
+
+
 
 
